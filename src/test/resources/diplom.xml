@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <test name="Radio">
+        <classes>
+            <class name="io.github.epam.material.tests.inputs.RadioButtonTests"/>
+        </classes>
+    </test>
+    <test name="Checkbox">
+        <classes>
+            <class name="io.github.epam.material.tests.inputs.CheckboxTests"/>
+        </classes>
+    </test>
+    <test name="Card">
+        <classes>
+            <class name="io.github.epam.material.tests.surfaces.CardTests"/>
+        </classes>
+    </test>
+    <test name="ClickAwayListener">
+        <classes>
+            <class name="io.github.epam.material.tests.utils.ClickAwayListenerTests"/>
+        </classes>
+    </test>
+    <test name="Avatar">
+        <classes>
+            <class name="io.github.epam.material.tests.displaydata.AvatarTests"/>
+        </classes>
+    </test>
+</suite>
